@@ -16,7 +16,7 @@ namespace Cap08_Aula02_WinForm_Calcula
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormPrincipal());
         }
     }
 }
