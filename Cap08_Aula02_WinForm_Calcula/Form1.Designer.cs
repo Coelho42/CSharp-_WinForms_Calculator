@@ -52,12 +52,19 @@
             this.buttonVirgula = new System.Windows.Forms.Button();
             this.buttonNum0 = new System.Windows.Forms.Button();
             this.textBoxDisplay = new System.Windows.Forms.TextBox();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.básicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cientificoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonCE
             // 
             this.buttonCE.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCE.Location = new System.Drawing.Point(12, 84);
+            this.buttonCE.Location = new System.Drawing.Point(12, 103);
             this.buttonCE.Name = "buttonCE";
             this.buttonCE.Size = new System.Drawing.Size(42, 30);
             this.buttonCE.TabIndex = 1;
@@ -66,7 +73,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(60, 84);
+            this.button2.Location = new System.Drawing.Point(60, 103);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(42, 30);
             this.button2.TabIndex = 2;
@@ -75,7 +82,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(108, 84);
+            this.button3.Location = new System.Drawing.Point(108, 103);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(42, 30);
             this.button3.TabIndex = 3;
@@ -84,7 +91,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(156, 84);
+            this.button4.Location = new System.Drawing.Point(156, 103);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(42, 30);
             this.button4.TabIndex = 4;
@@ -93,7 +100,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(204, 84);
+            this.button5.Location = new System.Drawing.Point(204, 103);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(42, 30);
             this.button5.TabIndex = 5;
@@ -102,7 +109,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(204, 120);
+            this.button6.Location = new System.Drawing.Point(204, 139);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(42, 30);
             this.button6.TabIndex = 10;
@@ -112,7 +119,7 @@
             // buttonDividir
             // 
             this.buttonDividir.Font = new System.Drawing.Font("Calisto MT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDividir.Location = new System.Drawing.Point(156, 120);
+            this.buttonDividir.Location = new System.Drawing.Point(156, 139);
             this.buttonDividir.Name = "buttonDividir";
             this.buttonDividir.Size = new System.Drawing.Size(42, 30);
             this.buttonDividir.TabIndex = 9;
@@ -122,7 +129,7 @@
             // buttonNum9
             // 
             this.buttonNum9.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum9.Location = new System.Drawing.Point(108, 120);
+            this.buttonNum9.Location = new System.Drawing.Point(108, 139);
             this.buttonNum9.Name = "buttonNum9";
             this.buttonNum9.Size = new System.Drawing.Size(42, 30);
             this.buttonNum9.TabIndex = 8;
@@ -132,7 +139,7 @@
             // buttonNum8
             // 
             this.buttonNum8.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum8.Location = new System.Drawing.Point(60, 120);
+            this.buttonNum8.Location = new System.Drawing.Point(60, 139);
             this.buttonNum8.Name = "buttonNum8";
             this.buttonNum8.Size = new System.Drawing.Size(42, 30);
             this.buttonNum8.TabIndex = 7;
@@ -142,7 +149,7 @@
             // buttonNum7
             // 
             this.buttonNum7.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum7.Location = new System.Drawing.Point(12, 120);
+            this.buttonNum7.Location = new System.Drawing.Point(12, 139);
             this.buttonNum7.Name = "buttonNum7";
             this.buttonNum7.Size = new System.Drawing.Size(42, 30);
             this.buttonNum7.TabIndex = 6;
@@ -151,7 +158,7 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(204, 156);
+            this.button11.Location = new System.Drawing.Point(204, 175);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(42, 30);
             this.button11.TabIndex = 15;
@@ -161,7 +168,7 @@
             // buttonMultiplicar
             // 
             this.buttonMultiplicar.Font = new System.Drawing.Font("Calisto MT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMultiplicar.Location = new System.Drawing.Point(156, 156);
+            this.buttonMultiplicar.Location = new System.Drawing.Point(156, 175);
             this.buttonMultiplicar.Name = "buttonMultiplicar";
             this.buttonMultiplicar.Size = new System.Drawing.Size(42, 30);
             this.buttonMultiplicar.TabIndex = 14;
@@ -171,7 +178,7 @@
             // buttonNum6
             // 
             this.buttonNum6.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum6.Location = new System.Drawing.Point(108, 156);
+            this.buttonNum6.Location = new System.Drawing.Point(108, 175);
             this.buttonNum6.Name = "buttonNum6";
             this.buttonNum6.Size = new System.Drawing.Size(42, 30);
             this.buttonNum6.TabIndex = 13;
@@ -181,7 +188,7 @@
             // buttonNum5
             // 
             this.buttonNum5.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum5.Location = new System.Drawing.Point(60, 156);
+            this.buttonNum5.Location = new System.Drawing.Point(60, 175);
             this.buttonNum5.Name = "buttonNum5";
             this.buttonNum5.Size = new System.Drawing.Size(42, 30);
             this.buttonNum5.TabIndex = 12;
@@ -191,7 +198,7 @@
             // buttonNum4
             // 
             this.buttonNum4.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum4.Location = new System.Drawing.Point(12, 156);
+            this.buttonNum4.Location = new System.Drawing.Point(12, 175);
             this.buttonNum4.Name = "buttonNum4";
             this.buttonNum4.Size = new System.Drawing.Size(42, 30);
             this.buttonNum4.TabIndex = 11;
@@ -201,7 +208,7 @@
             // buttonIgual
             // 
             this.buttonIgual.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonIgual.Location = new System.Drawing.Point(204, 192);
+            this.buttonIgual.Location = new System.Drawing.Point(204, 211);
             this.buttonIgual.Name = "buttonIgual";
             this.buttonIgual.Size = new System.Drawing.Size(42, 66);
             this.buttonIgual.TabIndex = 20;
@@ -212,7 +219,7 @@
             // buttonMenos
             // 
             this.buttonMenos.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMenos.Location = new System.Drawing.Point(156, 192);
+            this.buttonMenos.Location = new System.Drawing.Point(156, 211);
             this.buttonMenos.Name = "buttonMenos";
             this.buttonMenos.Size = new System.Drawing.Size(42, 30);
             this.buttonMenos.TabIndex = 19;
@@ -222,7 +229,7 @@
             // buttonNum3
             // 
             this.buttonNum3.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum3.Location = new System.Drawing.Point(108, 192);
+            this.buttonNum3.Location = new System.Drawing.Point(108, 211);
             this.buttonNum3.Name = "buttonNum3";
             this.buttonNum3.Size = new System.Drawing.Size(42, 30);
             this.buttonNum3.TabIndex = 18;
@@ -232,7 +239,7 @@
             // buttonNum2
             // 
             this.buttonNum2.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum2.Location = new System.Drawing.Point(60, 192);
+            this.buttonNum2.Location = new System.Drawing.Point(60, 211);
             this.buttonNum2.Name = "buttonNum2";
             this.buttonNum2.Size = new System.Drawing.Size(42, 30);
             this.buttonNum2.TabIndex = 17;
@@ -243,7 +250,7 @@
             // 
             this.buttonNum1.Cursor = System.Windows.Forms.Cursors.Default;
             this.buttonNum1.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum1.Location = new System.Drawing.Point(12, 192);
+            this.buttonNum1.Location = new System.Drawing.Point(12, 211);
             this.buttonNum1.Name = "buttonNum1";
             this.buttonNum1.Size = new System.Drawing.Size(42, 30);
             this.buttonNum1.TabIndex = 16;
@@ -253,7 +260,7 @@
             // buttonMais
             // 
             this.buttonMais.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMais.Location = new System.Drawing.Point(156, 228);
+            this.buttonMais.Location = new System.Drawing.Point(156, 247);
             this.buttonMais.Name = "buttonMais";
             this.buttonMais.Size = new System.Drawing.Size(42, 30);
             this.buttonMais.TabIndex = 24;
@@ -264,7 +271,7 @@
             // buttonVirgula
             // 
             this.buttonVirgula.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVirgula.Location = new System.Drawing.Point(108, 228);
+            this.buttonVirgula.Location = new System.Drawing.Point(108, 247);
             this.buttonVirgula.Name = "buttonVirgula";
             this.buttonVirgula.Size = new System.Drawing.Size(42, 30);
             this.buttonVirgula.TabIndex = 23;
@@ -274,7 +281,7 @@
             // buttonNum0
             // 
             this.buttonNum0.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNum0.Location = new System.Drawing.Point(12, 228);
+            this.buttonNum0.Location = new System.Drawing.Point(12, 247);
             this.buttonNum0.Name = "buttonNum0";
             this.buttonNum0.Size = new System.Drawing.Size(90, 30);
             this.buttonNum0.TabIndex = 22;
@@ -285,12 +292,58 @@
             // textBoxDisplay
             // 
             this.textBoxDisplay.Font = new System.Drawing.Font("Calisto MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxDisplay.Location = new System.Drawing.Point(12, 21);
+            this.textBoxDisplay.Location = new System.Drawing.Point(12, 40);
             this.textBoxDisplay.Multiline = true;
             this.textBoxDisplay.Name = "textBoxDisplay";
             this.textBoxDisplay.Size = new System.Drawing.Size(234, 42);
             this.textBoxDisplay.TabIndex = 25;
             this.textBoxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // menuStrip
+            // 
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem});
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(258, 24);
+            this.menuStrip.TabIndex = 26;
+            this.menuStrip.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.básicoToolStripMenuItem,
+            this.cientificoToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acercaDeToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // básicoToolStripMenuItem
+            // 
+            this.básicoToolStripMenuItem.Name = "básicoToolStripMenuItem";
+            this.básicoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.básicoToolStripMenuItem.Text = "Básico";
+            // 
+            // cientificoToolStripMenuItem
+            // 
+            this.cientificoToolStripMenuItem.Name = "cientificoToolStripMenuItem";
+            this.cientificoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cientificoToolStripMenuItem.Text = "Cientifico";
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // FormPrincipal
             // 
@@ -323,8 +376,12 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.buttonCE);
+            this.Controls.Add(this.menuStrip);
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "FormPrincipal";
             this.Text = "Form1";
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,6 +412,12 @@
         private System.Windows.Forms.Button buttonVirgula;
         private System.Windows.Forms.Button buttonNum0;
         private System.Windows.Forms.TextBox textBoxDisplay;
+        private System.Windows.Forms.MenuStrip menuStrip;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem básicoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cientificoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
     }
 }
 
