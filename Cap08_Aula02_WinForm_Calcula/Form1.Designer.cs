@@ -58,6 +58,7 @@
             this.básicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cientificoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tretaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -303,7 +304,8 @@
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.helpToolStripMenuItem,
+            this.tretaToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(258, 24);
@@ -344,6 +346,12 @@
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
+            // 
+            // tretaToolStripMenuItem
+            // 
+            this.tretaToolStripMenuItem.Name = "tretaToolStripMenuItem";
+            this.tretaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.tretaToolStripMenuItem.Text = "Treta";
             // 
             // FormPrincipal
             // 
@@ -418,6 +426,7 @@
         private System.Windows.Forms.ToolStripMenuItem cientificoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tretaToolStripMenuItem;
     }
 }
 
