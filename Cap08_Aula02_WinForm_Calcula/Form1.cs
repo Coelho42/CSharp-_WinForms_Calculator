@@ -58,19 +58,34 @@ namespace Cap08_Aula02_WinForm_Calcula
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void básicoToolStripMenuItemFile_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Clicas-te no ménu File, opção Básico");
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void cientificoToolStripMenuItemFileCiêntifico_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Clicas-te no ménu File, opção Ciêntífica");
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void básicoToolStripMenuItemFileAcercaDe_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Clicas-te no ménu Help, opção Acerca de...");
         }
     }
 }
