@@ -57,5 +57,20 @@ namespace Cap08_Aula02_WinForm_Calcula
                 textBoxDisplay.Text = resultado.ToString();
             }
         }
+
+        private void básicoToolStripMenuItemFile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cientificoToolStripMenuItemFileCiêntifico_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void básicoToolStripMenuItemFileAcercaDe_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

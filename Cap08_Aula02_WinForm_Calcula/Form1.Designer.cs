@@ -55,10 +55,9 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.básicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cientificoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tretaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.básicoToolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.cientificoToolStripMenuItemFileCiêntifico = new System.Windows.Forms.ToolStripMenuItem();
+            this.básicoToolStripMenuItemFileAcercaDe = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -304,8 +303,7 @@
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem,
-            this.tretaToolStripMenuItem});
+            this.helpToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(258, 24);
@@ -315,8 +313,8 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.básicoToolStripMenuItem,
-            this.cientificoToolStripMenuItem});
+            this.básicoToolStripMenuItemFile,
+            this.cientificoToolStripMenuItemFileCiêntifico});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -324,34 +322,31 @@
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.acercaDeToolStripMenuItem});
+            this.básicoToolStripMenuItemFileAcercaDe});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
-            // básicoToolStripMenuItem
+            // básicoToolStripMenuItemFile
             // 
-            this.básicoToolStripMenuItem.Name = "básicoToolStripMenuItem";
-            this.básicoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.básicoToolStripMenuItem.Text = "Básico";
+            this.básicoToolStripMenuItemFile.Name = "básicoToolStripMenuItemFile";
+            this.básicoToolStripMenuItemFile.Size = new System.Drawing.Size(152, 22);
+            this.básicoToolStripMenuItemFile.Text = "Básico";
+            this.básicoToolStripMenuItemFile.Click += new System.EventHandler(this.básicoToolStripMenuItemFile_Click);
             // 
-            // cientificoToolStripMenuItem
+            // cientificoToolStripMenuItemFileCiêntifico
             // 
-            this.cientificoToolStripMenuItem.Name = "cientificoToolStripMenuItem";
-            this.cientificoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cientificoToolStripMenuItem.Text = "Cientifico";
+            this.cientificoToolStripMenuItemFileCiêntifico.Name = "cientificoToolStripMenuItemFileCiêntifico";
+            this.cientificoToolStripMenuItemFileCiêntifico.Size = new System.Drawing.Size(152, 22);
+            this.cientificoToolStripMenuItemFileCiêntifico.Text = "Cientifico";
+            this.cientificoToolStripMenuItemFileCiêntifico.Click += new System.EventHandler(this.cientificoToolStripMenuItemFileCiêntifico_Click);
             // 
-            // acercaDeToolStripMenuItem
+            // básicoToolStripMenuItemFileAcercaDe
             // 
-            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.acercaDeToolStripMenuItem.Text = "Acerca de...";
-            // 
-            // tretaToolStripMenuItem
-            // 
-            this.tretaToolStripMenuItem.Name = "tretaToolStripMenuItem";
-            this.tretaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.tretaToolStripMenuItem.Text = "Treta";
+            this.básicoToolStripMenuItemFileAcercaDe.Name = "básicoToolStripMenuItemFileAcercaDe";
+            this.básicoToolStripMenuItemFileAcercaDe.Size = new System.Drawing.Size(152, 22);
+            this.básicoToolStripMenuItemFileAcercaDe.Text = "Acerca de...";
+            this.básicoToolStripMenuItemFileAcercaDe.Click += new System.EventHandler(this.básicoToolStripMenuItemFileAcercaDe_Click);
             // 
             // FormPrincipal
             // 
@@ -422,11 +417,10 @@
         private System.Windows.Forms.TextBox textBoxDisplay;
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem básicoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cientificoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem básicoToolStripMenuItemFile;
+        private System.Windows.Forms.ToolStripMenuItem cientificoToolStripMenuItemFileCiêntifico;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tretaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem básicoToolStripMenuItemFileAcercaDe;
     }
 }
 
