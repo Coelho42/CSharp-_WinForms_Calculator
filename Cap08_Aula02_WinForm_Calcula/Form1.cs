@@ -245,10 +245,21 @@ namespace Cap08_Aula02_WinForm_Calcula
         /// <param name="e"></param>
         private void básicoToolStripMenuItemFileAcercaDe_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Clicas-te no ménu Help, opção Acerca de...");
+            // MessageBox.Show("Clicas-te no ménu Help, opção Acerca de...");
+
+            // Chamada de Form AcercaDe...
+            // 1 - Declara-se um objeto do tipo da Classe que define a Form em questão
+            // 2 - É o objeto que passa a manipular a Form
+            
+            FormAcercaDe form = new FormAcercaDe();
+            form.ShowDialog();  // Show Dialog() abre a Form em modo MODAL
         }
 
         #endregion
-   
+
+        private void timerMáquina_Tick(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

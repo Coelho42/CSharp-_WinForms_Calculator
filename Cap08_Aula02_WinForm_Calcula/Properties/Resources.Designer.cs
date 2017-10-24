@@ -69,5 +69,15 @@ namespace Cap08_Aula02_WinForm_Calcula.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_0450 {
+            get {
+                object obj = ResourceManager.GetObject("IMG_0450", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
